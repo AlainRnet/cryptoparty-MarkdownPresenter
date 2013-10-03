@@ -1,7 +1,7 @@
-!SLIDE 
+! 
 #OpenPGP & GPG
 
-!SLIDE bullets incremental
+!
 
 # OpenPGP/GPG ?
 
@@ -10,7 +10,7 @@
 * OpenPGP: standard d'Internet RFC 4880
 * GPG: Gnu Privacy Guard (version 1.0.0 1999, version 2.0 2006)
 
-!SLIDE bullets incremental
+!
 
 # Que fait GPG ?
 
@@ -19,7 +19,7 @@
 * Gestion de clés
 * Création, certification, révocation,...
 
-!SLIDE bullets incremental
+!
 
 # Applications de GPG
 
@@ -27,7 +27,7 @@
 * 
 *
 
-!SLIDE bullets incremental
+!
 
 # Un tout petit peu d'histoire: "The Crypto Wars"
 
@@ -40,7 +40,7 @@
 * 1996 enquête fédérale criminelle abandonnée sans mise en examen de Zimmermann
 * démilitarisation de la "crypto forte"  = nécessité économique du chiffrement? (banque, e-commerce)
 
-!SLIDE bullets incremental
+!
 
 # Web of Trust
 
@@ -48,7 +48,7 @@
 * On ne peut physiquement vérifier qu'un nombre limité de clés
 * Signature des clés
 
-!SLIDE bullets incremental
+!
 
 # Serveur de clés
 
