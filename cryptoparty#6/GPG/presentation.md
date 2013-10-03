@@ -1,110 +1,54 @@
-Apps 
-===
-Lots of people have been asking stuff...
+! 
+#OpenPGP & GPG
 
 !
 
-My story
-===
-* Wasted +1yr on first app
-* First few failed
-* Since then churn out simple ones
-* Been focused a few months maybe?
-* 7 or 8 apps now
+# OpenPGP/GPG ?
+
+* PGP: Pretty Good Privacy 
+* Phil Zimmermann 1991
+* OpenPGP: standard d'Internet RFC 4880
+* GPG: Gnu Privacy Guard (version 1.0.0 1999, version 2.0 2006)
 
 !
 
-![Texte alternatif](http://macgpg.sourceforge.net/en/img/mac-gpg-logo.png "texte pour le titre, facultatif")
+# Que fait GPG ?
+
+* Chiffrement/Déchiffrement
+* Signature
+* Gestion de clés
+* Création, certification, révocation,...
 
 !
 
-![Texte alternatif](/mac-gpg-logo.png)
+# Applications de GPG
+
+* Email bien sûr, mais pas que...
+* 
+*
 
 !
 
-Sales
-===
-* Money's kinda useful
-* Average $70/day
-* Soon to be $100 with voda app
-* Thats 36k...
-* I want a boat
+# Un tout petit peu d'histoire: "The Crypto Wars"
+
+* Zimmermann: activiste pacifiste et antinucléaire
+* 1993 Zimmermann devient la cible d'1 enquête criminelle de la part du gouvernement américain
+* "Exportation de munitions sans license"
+* crypto avec clef > 40 bits considérée comme munitions
+* PGP: clefs de 128 bits (1993)
+* publication du code source du programme en version papier! Livre protégé par 1er amendement 
+* 1996 enquête fédérale criminelle abandonnée sans mise en examen de Zimmermann
+* démilitarisation de la "crypto forte"  = nécessité économique du chiffrement? (banque, e-commerce)
 
 !
 
-Coding
-===
-* Obj-C is nice
-* Think of it like a VERY simple layer of OO on top of C
-* Much simpler than C++
-* Like JS with C syntax
+# Web of Trust
+
+* Toile de confiance
+* On ne peut physiquement vérifier qu'un nombre limité de clés
+* Signature des clés
 
 !
 
-Time and Motivation
-===
-* I spend a few hours a week on it
-* Motivated by family/house
-* Dont be scared to give it a go
+# Serveur de clés
 
-!
-
-Support
-===
-* I have my email in most apps
-* Get maybe one a day?
-* Everyone is friendly
-* I gave one refund
-
-!
-
-Fail forwards
-===
-* Most apps fail
-* < $5 / week = fail
-* So: Make lots of small apps
-* Build on what works eg usage
-* Remember rovio made 51 apps before angry birds.
-
-!
-
-Ideas
-===
-* Start with crummy ideas. Thats better than nothing.
-* If it's 'obvious' to you, then its probably useful to someone.
-* Execution > ideas anyway.
-
-!
-
-Marketing
-===
-* Tried free for a week - fail (800 -> 0)
-* I have websites for my apps - nothing
-* Tried $2 - nothing, except usage apps
-* Now I just plonk them on at $1 or $2 and leave it
-* Haven't tried adwords
-
-!
-
-Nuts n bolts
-===
-* Reviews take 2 weeks
-* Apple takes 30%
-* GST is 10%
-* Marginal tax will take 37% of what remains
-* Put it in the wife's name!
-* Ads in apps make nothing
-
-!
-
-Ideas
----
-* Pair up, make two apps, one in each name to make revenue split simple
-* Android - never touched. Get in the ground floor on tablets?
-* Scratch your own itch - make a very simple app
-
-!
-
-Whats stopping you?
----
-Any questions?
