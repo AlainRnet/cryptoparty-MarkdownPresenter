@@ -1,0 +1,15 @@
+{
+   "name": "Cryptoparty #6",
+   "sections":
+      [{"section":"Presentation"},
+   {"section":"Mythes"},
+   {"section":"Vocabulaire"},
+   {"section":"Cryptographie"},
+   {"section":"Internet"},
+   {"section":"SSL"},
+   {"section":"VPN"},
+   {"section":"Tor"},
+   {"section":"Mail"},
+   {"section":"GPG"},
+   {"section":"Conclusion"} ]
+}
