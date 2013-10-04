@@ -124,6 +124,7 @@ La solution en vidéo!
     * **A**dleman
 * **RSA** est l'algorithme de chiffrement asymétrique le plus utilisé dans GPG
 * clefs longues: 1024, 2048, 3072, 4096
+
 !
 
 #GPG en pratique 1
@@ -168,9 +169,19 @@ Si Alice oublie sa phrase de passe ou si son disque dur tombe en panne: adieu ve
 
 Alice devra créer une nouvelle paire de clefs... et révoquer l'ancienne paire.
 
-D'où l'intérêt de génerer une **certificat de révocation**.
+D'où l'intérêt de générer une **certificat de révocation**.
 
 Elle ne pourra plus jamais lire ses anciens mails, qui sont stockés sous forme chiffrée!
+
+!
+
+# Un peu de "crypto"
+
+RSA:
+
+* fonction à sens unique et à "brèche" secrète
+* déchiffrer sans la clef privée demande une puissance de calcul informatique et/ou une durée de calcul astronomique (factorisation de nombres premiers)
+* déchiffrer avec la clef privée (la brèche secrète) demande des ressources existantes (<1 s sur PC récent puissant, jusqu'à 20 s sur Raspberry Pi)
 
 !
 
@@ -194,8 +205,10 @@ Elle ne pourra plus jamais lire ses anciens mails, qui sont stockés sous forme 
 !
 
 #Tin-foil hat 2
-Dave Grohl, batteur de Nirvana
+
 ![tin_foil2](tin_foil2.jpg)
+
+Dave Grohl, batteur de Nirvana
 
 "Just because you're paranoid, don't mean they're not after you"
 
@@ -206,6 +219,12 @@ Territorial Pissings, Nirvana.
 #Tin-foil hut
 
 ![tin_foil_hut_1](tin_foil_hut_1.jpg)
+
+!
+
+#*Real* Tin-foil hut!
+
+![real tin foil hut](real_tin_foil_hut.jpg)
 
 !
 
@@ -224,15 +243,10 @@ Territorial Pissings, Nirvana.
 
 !
 
-
-
-!
-
 # Applications de GPG
 
 * Email bien sûr, mais pas que...
-* 
-*
+* Grégory vous en parlera mieux que moi!
 
 !
 
@@ -279,4 +293,48 @@ Territorial Pissings, Nirvana.
 # GPG: avantages
 
 * basé sur le mail, service connu et très accessible
-* chiffrement
+* chiffrement fort, aucune attaque connue sur RSA
+* décentralisé
+* absence d'autorité, donc de corruption (Man/NSA In The Middle attack)
+* gratuit
+
+!
+
+# GPG: inconvénients
+
+* nécessité de convaincre ses correspondants de se former
+* courbe d'apprentissage rude au début (2 heures)
+* WOT fastidieux à étendre
+* Clients mails compatibles  trop peu nombreux
+* Manque d'ergonomie des interfaces graphiques
+* Webmail quasi inexistant, de toute façon pas sécurisable
+* erreurs de manipulation fréquentes au début
+
+!
+
+#Limites
+
+* Métadonnées du mail par définition non chiffrées:
+    * **sujet non  chiffré!**
+    * destinataire & expéditeur: identité, localisation (IP)
+    * fréquence, date, horaire des échanges
+* Toile de confiance:
+    * social graphing: analyse des réseaux sociaux
+
+!
+
+#Solutions, alternatives
+
+* Anonymat
+    * GPG en conjonction avec TOR
+    * OTR (ou ZRTP) avec TOR
+    * **Bitmessage**: messagerie anonyme et chiffrée (d'après Bitcoin)
+    * D'autres idées?
+
+!
+
+#Fin du blabla
+
+**Merci de rester après la pause pour installer GPG sur votre ordi/smartphone et envoyer/recevoir vos premiers mails chiffrés!**
+
+**Sinon le blabla n'aura servi à rien.**
