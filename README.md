@@ -9,7 +9,7 @@ Pour modifier le diaporama, il suffit d'éditer le fichier presentation.md en ut
 Vous pouvez ajouter des images (n'oubliez pas de les envoyer sur le dépot git).
 Pour afficher la présentation, il faut télécharger le dossier (glit clone) puis ouvrir le fichier presentation.html dans un navigateur.
 
-Ensuite utilisez les flèches -> <- pour changer de diapositives.
+Ensuite utilisez les flèches -> <- pour changer de diapositive.
 
 @cryptomars
 www.cryptoparty.fr
