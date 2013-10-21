@@ -1,6 +1,8 @@
 cryptoparty-MarkdownPresenter
 =============================
 
+Slides for cryptoparty in french. Written in MarkDown.
+
 Diapositives CryptoParty Marseille en version MarkdownPresenter https://github.com/chrishulbert/MarkdownPresenter
 
 Pour le moment, seul le dossier GPG est à jour et contient tous les fichiers nécessaires à une projection avec MarkdownPresenter.
